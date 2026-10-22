@@ -1,0 +1,77 @@
+{
+  "sport": "nfl",
+  "generated_at": "2026-10-21T23:45:06.419811+00:00",
+  "headlines": [
+    {
+      "id": "f0734a968c4f",
+      "title": "NFL playoff picture: Updated projections, chances to make the postseason",
+      "url": "https://www.espn.com/nfl/story/_/id/49745176/2026-nfl-playoff-predictions-afc-nfc-odds-super-bowl",
+      "published_at": "2026-10-21T18:47:06-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "b3f259ea8918",
+      "title": "Projecting the 2027 NFL draft order: Which teams could have an early pick?",
+      "url": "https://www.espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
+      "published_at": "2026-10-21T18:47:06-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "8a7d53d2d196",
+      "title": "Projecting the top 10 picks of next year's NFL draft: Why Yates has three quarterbacks going early",
+      "url": "https://www.espn.com/nfl/draft2027/story/_/id/50229467/2027-nfl-mock-draft-yates-top-10-picks-predictions-qbs",
+      "published_at": "2026-10-21T18:13:17-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "918f7af594ab",
+      "title": "Draft risers, notes off Saturday's games: Will measurables matter for Chambliss?",
+      "url": "https://www.espn.com/nfl/draft2027/story/_/id/49881131/2027-nfl-draft-risers-questions-college-football-prospects",
+      "published_at": "2026-10-21T18:13:17-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "549091261125",
+      "title": "Facts vs. Feelings: Should you start Josh Jacobs and other lineup questions",
+      "url": "https://www.espn.com/fantasy/football/story/_/id/50236847/facts-vs-feelings-fantasy-advice-week-7",
+      "published_at": "2026-10-21T16:04:04-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "39a1003daa8c",
+      "title": "Rankings for Week 7",
+      "url": "https://www.espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst",
+      "published_at": "2026-10-21T16:04:03-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "71ed05382125",
+      "title": "NFL Week 7 buzz: What we're hearing on QB situations, trade candidates and the wild NFC East",
+      "url": "https://www.espn.com/nfl/story/_/id/50228657/week-7-buzz-fantasy-predictions-graziano-fowler-2026",
+      "published_at": "2026-10-21T14:00:41-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "81137694212e",
+      "title": "Colts right to give Steichen more time? Eagles to trade stars? Solak on Week 6",
+      "url": "https://www.espn.com/nfl/story/_/id/50220836/week-7-seven-things-solak-thinks-eagles-rams-colts",
+      "published_at": "2026-10-21T14:00:41-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "b4dc5581919d",
+      "title": "Jameis Winston vs. McCarthy: Pros and cons of Giants' QBs",
+      "url": "https://www.espn.com/nfl/story/_/id/50219771/jameis-winston-jj-mccarthy-qb-pros-cons-new-york-giants",
+      "published_at": "2026-10-21T13:37:42-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "8e3a68ce29aa",
+      "title": "Our weekly NFL Power Rankings: 1-32 poll, plus the biggest offensive issue for each team",
+      "url": "https://www.espn.com/nfl/story/_/id/50218886/nfl-power-rankings-week-7-teams-biggest-issue-offense",
+      "published_at": "2026-10-21T11:17:54-05:00",
+      "publisher": "ESPN"
+    }
+  ],
+  "stale": false
+}

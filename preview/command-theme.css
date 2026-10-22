@@ -1,0 +1,193 @@
+/* Sports editorial: clean canvas, broadcast typography, one vivid brand accent. */
+html:root{
+  color-scheme:light;
+  --bg:#ffffff;--page:#ffffff;--panel:#ffffff;--surface:#ffffff;--surface-raised:#f6f6f8;
+  --line:#dedee5;--muted:#65656f;--white:#16161c;--text:#16161c;
+  --mint:#c81565;--accent:#c81565;--green:#c81565;--cyan:#c81565;--blue:#c81565;
+  --gold:#6544bd;--coral:#c81565;--red:#963851;
+  --chart-observed:#c81565;--chart-model:#6544bd;
+}
+html body,html body.ledger{background:#fff;color:#16161c;font:14px/1.5 'Segoe UI Variable Text','Segoe UI',Arial,sans-serif;-webkit-font-smoothing:antialiased}
+html body :is(button,input,select,textarea){font-family:inherit;color:#202027;background:#fff;border:1px solid #d1d1da;border-radius:6px;box-shadow:none}
+html body button{font-weight:600;transition:background .15s,color .15s,border-color .15s}
+html body button:hover:not(:disabled){background:#f7eaf0;color:#a30c50;border-color:#c81565}
+html body :is(button,a,input,select,summary):focus-visible{outline:2px solid #c81565;outline-offset:4px}
+html body input::placeholder{color:#73737d}
+html body input[type=checkbox]{accent-color:#c81565}
+html body a{color:#ab1458}
+html body a:hover{color:#72103e}
+html body :is(.top,.mast){background:#111114;border-bottom:0;box-shadow:none;min-height:72px}
+html body :is(.top,.mast) .brand{font:750 23px/1 Bahnschrift,'Arial Narrow','Segoe UI',sans-serif;color:#fff;letter-spacing:-.5px;gap:10px}
+html body :is(.brand-wordmark,.ledger-wordmark){display:flex;flex-direction:row;gap:5px;align-items:center}
+html body :is(.brand-wordmark,.ledger-wordmark) b{color:#fff;font-weight:400}
+html body :is(.brand-mark,.ledger-mark){display:block;width:35px;height:35px;flex:none;font-size:0;border:0;border-radius:0;box-shadow:none;background:url('ledger-icon.svg') center/contain no-repeat;margin-right:0}
+html body :is(.top,.mast) nav{gap:14px}
+html body :is(.top,.mast) nav :is(a,button){background:transparent;color:#bcbcc6;border:0;border-bottom:3px solid transparent;border-radius:0;font-size:12px;font-weight:650}
+html body :is(.top,.mast) nav .active{color:#fff;background:transparent;border-bottom-color:#fa3a8c}
+html body :is(.top,.mast) nav :is(a,button):hover{background:#242428;color:#fff}
+html body .local{border:1px solid #45454d;color:#d0d0d7;border-radius:20px;padding:6px 10px;font:10px Consolas,monospace;letter-spacing:.4px}
+html body .local::before{background:#fa3a8c;width:5px;height:5px;box-shadow:none;border-radius:50%;transform:none}
+html body .mast .refresh{color:#fff;background:#29292f;border-color:#53535d;border-radius:30px}
+html body .sports{top:72px;width:164px;background:#fafafa;border-color:#e1e1e7;padding:26px 12px}
+html body .sports>small{font:10px Consolas,monospace;color:#71717b;text-transform:uppercase;letter-spacing:1px}
+html body .sports button{color:#53535e;background:transparent;border:0;border-radius:5px;padding:12px 10px}
+html body .sports button[aria-pressed=true],html body .sports button[aria-pressed=true][data-sport]{color:#fff;background:#17171d;border-left:0;box-shadow:none}
+html body .sports button[aria-pressed=true]::before{display:none}
+html body .sports button span{color:inherit}
+html body .sports a{color:#52525e}
+html body .sports hr{border-color:#e1e1e7}
+html body .sidebar-foot{font:650 14px Bahnschrift,'Segoe UI',sans-serif;color:#24242c}
+html body .sidebar-foot span{font:10px 'Segoe UI',sans-serif;color:#73737d}
+html body main{margin-left:164px;margin-right:324px;padding:24px 28px 0}
+html body[data-sport] main{margin-inline:auto}
+html body .heading,html body .page-heading{padding-bottom:14px;border:0;border-image:none;position:relative;margin-bottom:0}
+html body :is(.heading,.page-heading)::after{display:none}
+html body :is(.heading,.page-heading) h1{font:800 42px/1.05 Bahnschrift,'Arial Black','Segoe UI',sans-serif;letter-spacing:-1.8px;text-transform:none;color:#111116;font-style:normal;margin-top:6px}
+html body :is(.heading small,.eyebrow){font:650 10px/1.6 'Segoe UI',sans-serif;letter-spacing:.6px;text-transform:uppercase;color:#6a6a75}
+html body :is(h2,h3){color:#19191f}
+html body .heading #reload,html body .primary{background:#c81565;color:#fff;border:1px solid #c81565;border-radius:30px;box-shadow:none}
+html body .heading #reload:hover,html body .primary:hover{background:#a91055;color:#fff}
+html body .heading #reload{font-size:13px;min-width:105px;height:42px}
+html body .summary{margin:0 0 18px;padding:12px 0 18px;border-top:0;border-bottom:1px solid #dedee5}
+html body .summary b{font:750 25px/1.2 Bahnschrift,'Segoe UI',sans-serif;color:#17171d;letter-spacing:-.7px;margin-bottom:3px}
+html body .summary small{font-size:11px;color:#6a6a75}
+html body .summary>div+div{border-color:#dedee5;padding-left:22px}
+html body :is(.ready,.review,.positive,.gold){color:#a71153}
+html body :is(.muted,.unavailable){color:#6a6a75}
+html body .negative{color:#963851}
+html body :is(#notice,.status-block,.nfl-gameday-context){background:#faf2f6;border-color:#c81565;color:#68354e}
+html body .segments{background:#f5f5f7;border:1px solid #e1e1e7;border-radius:7px;padding:3px}
+html body .segments button{background:transparent;color:#686874;border:0;border-radius:4px}
+html body .segments [aria-pressed=true],html body .segments .active,html body #sport-today[aria-pressed=true],html body .lab-modes [aria-pressed=true]{background:#17171d;color:#fff;border-color:#17171d;box-shadow:none}
+html body .toolbar{margin:0 0 12px;gap:10px}
+html body .toolbar :is(input,select),html body .toolbar input[type=search]{background:#fff;border-color:#d9d9e1;color:#202027;border-radius:6px}
+html body .sport-nav{background:#fff;border-bottom:1px solid #dedee5;min-height:44px}
+html body .sport-nav a{color:#6a6a75}
+html body .sport-nav a.active{color:#17171d;background:transparent;border-color:#c81565;font-weight:750}
+html body #top-stories{background:#fff;border:0;border-block:1px solid #dedee5;border-radius:0;margin-bottom:18px;box-shadow:none}
+html body .news-bar{background:transparent;border:0;padding:10px 0 2px}
+html body .news-bar h2{font:750 12px 'Segoe UI',sans-serif;color:#c81565;text-transform:uppercase;letter-spacing:.6px}
+html body .news-bar h2 span{color:#72727e;font-size:10px;text-transform:none;letter-spacing:0}
+html body #news-refresh{background:transparent;border:0;color:#686874;font-size:10px}
+html body .news-meta{font-size:10px;color:#72727e;padding:2px 0}
+html body .news-wire{padding:0}
+html body .news-wire li{padding:7px 0;border:0;grid-template-columns:18px minmax(0,1fr) 35px 120px;font-size:12px}
+html body .news-wire a{color:#292931;font-size:12px;font-weight:600;line-height:1.4}
+html body .news-number,html body .news-source,html body .news-wire time{color:#72727e}
+html body #top-stories .news-more summary{padding:6px 0 10px;border:0;color:#72727e}
+html body .section-title{padding:12px 0}
+html body .section-title h2{font:800 20px Bahnschrift,'Segoe UI',sans-serif;letter-spacing:-.5px}
+html body .section-title a{font-size:11px}
+html body :is(.column-head,.slate-labels){background:transparent;border:0;color:#787884;font-size:10px;padding-block:8px}
+html body .game,html body .game.selected{background:#fff;border:1px solid #dcdce4;border-radius:10px;margin-bottom:12px;padding:16px 12px;box-shadow:none}
+html body .game.selected{border-left:3px solid #c81565;padding-left:10px}
+html body .game-meta{color:#656571;font-size:11px}
+html body .game-meta>span:last-child{color:#a71153}
+html body .team strong{color:#19191f;font-size:14px;font-weight:750}
+html body .team>b{color:#15151a;font:750 22px Bahnschrift,'Segoe UI',sans-serif}
+html body .teams,html body .teams:hover{background:transparent;color:#19191f}
+html body .market button{background:#fafafa;border:1px solid #dedee5;border-radius:6px;color:#21212a;box-shadow:none;font-weight:700}
+html body .market button:hover{background:#fbedf3;border-color:#c81565}
+html body .market em{color:#a71153}
+html body .game-note{color:#777783}
+html body .season-ranks{color:#72727d}
+html body .season-ranks b{color:#5d398f}
+html body .team .season-ranks{font-size:10px}
+html body .team .season-ranks b{font:inherit;font-weight:750}
+html body .game-row,html body .game-row:nth-child(even){background:#fff;border:1px solid #dcdce4;border-radius:10px;padding:22px 18px;margin-bottom:12px;box-shadow:none}
+html body .game-row:hover{background:#fdfafd;border-color:#ba4b7d}
+html body .game-row .match-open,html body .game-row .match-open:hover{background:transparent;color:#16161c}
+html body .game-row .team-name{color:#19191f;font-weight:750}
+html body .game-row :is(.pitcher-line,.game-state,.nfl-row-context,.pick-name){color:#6a6a75}
+html body .game-row .score-number{color:#111116;font:750 30px Bahnschrift,'Segoe UI',sans-serif;letter-spacing:-1px}
+html body .game-row .prob-number,html body .game-row .prob-number.positive{color:#b5115b;font:750 32px Bahnschrift,'Segoe UI',sans-serif;letter-spacing:-1px}
+html body .game-row .icon{color:#a71153;background:#faf2f6;border-color:#e9c6d7;border-radius:6px}
+html body .game-row .prob-track{background:#eee6ed}
+html body .game-row .prob-track i{background:#c81565}
+html body .empty{background:#fafafa;border-color:#dedee5;color:#6a6a75}
+html body .empty button{background:#17171d;color:#fff}
+html body .inspector{top:72px;background:#fff;border-color:#e1e1e7;padding:24px 20px;width:324px}
+html body .inspector-title{border-color:#dedee5;padding-bottom:14px}
+html body .inspector-title h2{font:800 19px Bahnschrift,'Segoe UI',sans-serif;letter-spacing:-.5px}
+html body .live-dot{background:#c81565;box-shadow:none}
+html body .vs{background:#17171d;color:#fff;border:0;border-radius:10px;padding:18px 8px;margin:18px 0 10px}
+html body .vs small{color:#bcbcc6}
+html body .vs img{filter:drop-shadow(0 2px 3px #0004)}
+html body .scoreline{color:#15151a;font:750 39px Bahnschrift,'Segoe UI',sans-serif;letter-spacing:-1px;text-shadow:none}
+html body .score-caption{color:#777783}
+html body .comparison-row .track{background:#eee7ee;border-radius:0}
+html body .comparison-row .track i{background:#c81565;border-radius:0}
+html body .comparison-row .track i+i{background:#272730}
+html body .comparison-row>div span{color:#777783}
+html body .detail-links a{background:#fff;border-color:#dedee5;color:#a71153;border-radius:6px}
+html body .stat-team-head{background:#f6f6f8;color:#656571;border:0;border-radius:5px}
+html body .season-stat{border-bottom:1px solid #eeeef2;padding:9px 5px 6px}
+html body .season-stat small{color:#777783}
+html body .stat-bars i{background:linear-gradient(90deg,#c81565 var(--fill),#eee7ee var(--fill))}
+html body .stat-bars i+i{background:linear-gradient(270deg,#272730 var(--fill),#eee7ee var(--fill))}
+html body .metrics>div,html body .summary-strip>div{border-color:#c81565}
+html body .metrics>div:nth-child(2),html body .summary-strip>div:nth-child(3n+2){border-color:#272730}
+html body .metrics>div:nth-child(3),html body .summary-strip>div:nth-child(3n){border-color:#6544bd}
+html body :is(.metrics strong,.results-metrics b,.summary-strip b){color:#19191f;font-family:Bahnschrift,'Segoe UI',sans-serif}
+html body .key.actual{background:#c81565}
+html body .key.model{background:#6544bd}
+html body :is(.table-wrap,.results-table) th{background:#f6f6f8;color:#686874}
+html body .table-wrap table:has([data-sort="matchup"]) td{background:#fff;color:#24242d}
+html body .table-wrap table:has([data-sort="matchup"]) th{background:#f6f6f8}
+html body .table-wrap table:has([data-sort="matchup"]) tbody tr:hover td{background:#fdf3f8}
+html body dialog{background:#fff;color:#19191f;border:1px solid #d1d1da;border-radius:12px;box-shadow:0 24px 80px #0005}
+html body dialog::backdrop{background:#111114b8;backdrop-filter:blur(4px)}
+html body :is(.room-top,#room-tabs){background:#fff;border-color:#dedee5}
+html body .room-top h2{font-family:Bahnschrift,'Segoe UI',sans-serif;color:#19191f}
+html body .room-top .icon{color:#19191f;background:#f6f6f8}
+html body #room-tabs .active{color:#a71153;border-color:#c81565}
+html body .score-banner{background:#17171d;color:#fff;border:0;border-radius:10px;padding:24px 12px;margin-bottom:20px}
+html body .score-banner b,html body .score-banner .big{color:#fff}
+html body .score-banner small,html body .score-banner .vs{color:#bcbcc6}
+html body .score-banner .vs{display:block;margin:0 0 6px;padding:0;background:transparent;border:0;font-size:10px;line-height:1.5}
+html body .market-fieldset,html body .market-fieldset:nth-child(2),html body .market-fieldset:nth-child(3){border-top-color:#d8b9ca}
+html body :is(.badge,.badge.projected){background:#f9eaf1;color:#a71153}
+html body .bars button.selected{background:#6544bd;color:#fff}
+html body .bars button.under{background:#c81565;color:#fff}
+html body .lab-layout>aside{background:#fafafa;border-color:#dedee5}
+html body .lab-controls label{color:#656571}
+html body .lab-modes button{border-radius:30px}
+html body .counter{border-color:#c81565}
+html body footer{border-color:#dedee5;color:#777783}
+@media(min-width:651px){
+ html body .top{height:72px}
+ html body .heading{padding-bottom:8px}
+ html body .summary{padding:8px 0 12px;margin-bottom:14px}
+}
+@media(min-width:1650px){html body main{margin-right:350px}html body .inspector{width:350px}}
+@media(max-width:1100px){html body main{margin-left:150px;margin-right:0}html body .sports{width:150px}html body .inspector{position:static;width:auto;margin-left:150px}html body[data-sport] main{margin-inline:auto}}
+@media(max-width:850px){html body :is(.top,.mast) .brand{font-size:22px}html body :is(.heading,.page-heading) h1{font-size:34px}}
+@media(max-width:650px){
+ html body .top{padding:14px 16px 0;gap:10px}
+ html body .top nav{justify-content:space-between;gap:8px}
+ html body .top nav a{font-size:12px}
+ html body .sports{position:static;width:auto;padding:10px 14px;background:#fff;border-bottom:1px solid #e1e1e7}
+ html body .sports button{min-width:110px;border:1px solid #dedee5;border-radius:30px}
+ html body main{margin:0;padding:20px 14px 0}
+ html body[data-sport] main{margin:0}
+ html body .heading{align-items:center;gap:10px;flex-wrap:wrap}
+ html body :is(.heading,.page-heading) h1{font-size:34px;letter-spacing:-1.2px}
+ html body .heading #reload{min-width:88px;padding-inline:12px}
+ html body .summary b{font-size:24px}
+ html body .summary>div+div{padding-left:12px}
+ html body .news-wire li{grid-template-columns:18px minmax(0,1fr)}
+ html body .news-wire time{grid-column:2;text-align:left;margin-top:-3px}
+ html body .news-wire a{font-size:12px}
+ html body .game,html body .game.selected{padding:14px 10px}
+ html body .team:has(.home-team-copy){height:auto;min-height:57px;padding-block:5px}
+ html body .team strong{font-size:14px;line-height:1.35;white-space:normal}
+ html body .team>b{font-size:23px;margin-left:8px}
+ html body .team img{width:27px;height:27px}
+ html body .market button{min-height:44px;font-size:13px}
+ html body .game-grid>.market::before{color:#72727d}
+ html body .game-row .score-number,html body .game-row .prob-number{font-size:25px}
+ html body .game-row>div:last-child>.icon{background:#17171d;color:#fff;border-color:#17171d;border-radius:6px}
+ html body .inspector{margin:0;width:auto;padding:24px 16px;background:#fff}
+ html body .score-banner img{width:48px;height:48px}
+}
+@media(prefers-reduced-motion:reduce){html body *{transition:none!important;scroll-behavior:auto!important}}

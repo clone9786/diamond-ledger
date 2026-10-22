@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Diamond Ledger | NBA</title><link rel="stylesheet" href="desk.css"><link rel="stylesheet" href="gameday.css"><link rel="stylesheet" href="ledger-theme.css"><link rel="stylesheet" href="team-stats.css"><link rel="manifest" href="ledger.webmanifest"><link rel="icon" href="ledger-icon.svg"><link rel="stylesheet" href="pick-record.css"><link rel="stylesheet" href="nba-totals.css"><link rel="stylesheet" href="shared-mode.css"><script src="shared-mode.js"></script></head>
+<body data-sport="nba">
+<header class="mast"><a class="brand" href="home.html">Diamond Ledger</a><nav aria-label="NBA navigation"><button data-view="games" class="active">Matchups</button><button data-view="prices">Prices</button><button data-view="results">Results</button></nav><button class="refresh" id="refresh-nba">Update NBA</button></header>
+<div class="sport-nav"><a href="home.html">Home</a><a href="nfl.html">NFL</a><a href="football.html">College football</a><a href="nba.html" class="active">NBA</a><a href="parlays.html?sport=nba">Parlay Lab ↗</a></div>
+<main><div class="page-heading"><div><div class="eyebrow">2026–27 REGULAR SEASON</div><h1>NBA / Matchups</h1></div><span class="freshness" id="nba-updated"></span></div>
+<p id="notice" role="status"></p>
+<section id="nba-games-view"><div class="toolbar"><input id="nba-search" type="search" aria-label="Find an NBA team" placeholder="Find a team"><button id="nba-today" aria-pressed="true">Today</button></div><div class="slate-labels"><span>Matchup</span><span>Projected score</span><span>Winner estimate</span><span>Total points</span></div><div id="nba-games"></div></section>
+<section id="nba-prices-view" hidden><h2>DraftKings / all games</h2><p class="note">All available pregame moneylines, spreads and totals. Sort by any column; model chance includes refunded pushes separately.</p><div id="nba-prices"></div></section>
+<section id="nba-results-view" hidden></section>
+<details><summary>NBA model</summary><div id="nba-model" class="note"></div></details>
+<footer>NBA forecasts and reported DraftKings prices via ESPN. No live-game forecasting.</footer></main>
+<dialog id="nba-room"><div class="room-top"><button class="icon" id="close-nba" aria-label="Close NBA matchup">×</button><h2 id="nba-title"></h2></div><div id="nba-detail" style="padding:20px"></div></dialog>
+<link rel="stylesheet" href="sports-prices.css"><script src="price-store.js"></script><script src="prices-ui.js"></script><script src="sports-prices.js"></script><script src="engine-markets.js"></script><script src="football-markets.js"></script><script src="nba-totals.js"></script><script src="team-stats.js"></script><script src="pick-record.js"></script><script src="nba.js"></script><script src="ledger-brand.js"></script>
+<link rel="stylesheet" href="usage-analytics.css"><script src="usage-analytics.js"></script></body></html>

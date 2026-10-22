@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-21T23:45:37.381020+00:00",
+  "sports": {
+    "nhl": {
+      "winners": {
+        "games": 4,
+        "wins": 3,
+        "accuracy": 0.75,
+        "mean_chance": 0.5755604756776753,
+        "brier": 0.188683539883524,
+        "accuracy_interval95": [
+          0.3006360524426366,
+          0.9544139373553637
+        ]
+      },
+      "ties": 0,
+      "confidence_bins": [
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "games": 3,
+          "wins": 2,
+          "accuracy": 0.6666666666666666,
+          "mean_chance": 0.5289452683837115,
+          "brier": 0.22458015674260712,
+          "accuracy_interval95": [
+            0.2076549551264879,
+            0.9385096847238394
+          ]
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "games": 0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "games": 1,
+          "wins": 1,
+          "accuracy": 1.0,
+          "mean_chance": 0.7154060975595671,
+          "brier": 0.08099368930627465,
+          "accuracy_interval95": [
+            0.20654329147389294,
+            1.0
+          ]
+        },
+        {
+          "lower": 0.8,
+          "upper": 1,
+          "games": 0
+        }
+      ],
+      "total_error": {
+        "bias": -1.3188552902768265,
+        "mae": 1.3188552902768265
+      },
+      "margin_error": {
+        "bias": 1.1758108730676757,
+        "mae": 1.8966436773752768
+      },
+      "rows": [
+        {
+          "game_pk": 401892546,
+          "date": "2026-10-20",
+          "matchup": "Minnesota Wild at Edmonton Oilers",
+          "chance": 0.5301895567248426,
+          "won": 1,
+          "tie": false,
+          "total_error": -0.6251986814431465,
+          "margin_error": -0.7694636018103909,
+          "forecast": "2026-10-21T00:06:04.023471+00:00",
+          "result_source": "https://www.espn.com/nhl/game/_/gameId/401892546"
+        },
+        {
+          "game_pk": 401892547,
+          "date": "2026-10-20",
+          "matchup": "Detroit Red Wings at Seattle Kraken",
+          "chance": 0.5532367010820303,
+          "won": 1,
+          "tie": false,
+          "total_error": -0.5674482498210525,
+          "margin_error": -0.6722020068048113,
+          "forecast": "2026-10-21T00:06:04.023471+00:00",
+          "result_source": "https://www.espn.com/nhl/game/_/gameId/401892547"
+        },
+        {
+          "game_pk": 401892548,
+          "date": "2026-10-20",
+          "matchup": "Carolina Hurricanes at Vancouver Canucks",
+          "chance": 0.7154060975595671,
+          "won": 1,
+          "tie": false,
+          "total_error": -2.3573790879420633,
+          "margin_error": 1.9557723643203202,
+          "forecast": "2026-10-21T00:06:04.023471+00:00",
+          "result_source": "https://www.espn.com/nhl/game/_/gameId/401892548"
+        },
+        {
+          "game_pk": 401892549,
+          "date": "2026-10-20",
+          "matchup": "Tampa Bay Lightning at Vegas Golden Knights",
+          "chance": 0.5034095473442615,
+          "won": 0,
+          "tie": false,
+          "total_error": -1.7253951419010436,
+          "margin_error": 4.189136736565585,
+          "forecast": "2026-10-21T00:06:04.023471+00:00",
+          "result_source": "https://www.espn.com/nhl/game/_/gameId/401892549"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-10-21T23:45:33.551135+00:00",
+  "version": "nba-totals-20261021-v1",
+  "active": false,
+  "baseline_retained": true,
+  "updated_games": 0,
+  "evaluation": {
+    "validation_games": 595,
+    "evaluation_games": 635,
+    "chosen": "pace",
+    "baseline": {
+      "games": 635,
+      "mae": 15.234506520915893,
+      "rmse": 19.26796592166868,
+      "bias": -2.1674176043695015,
+      "crps": 10.841589545712266,
+      "coverage80": 0.7779527559055118,
+      "interval_width": 44.78582677165355
+    },
+    "challenger": {
+      "games": 635,
+      "mae": 15.330460395587155,
+      "rmse": 19.250605873743577,
+      "bias": 0.09340784255873336,
+      "crps": 10.832439796905955,
+      "coverage80": 0.7858267716535433,
+      "interval_width": 45.746456692913384
+    },
+    "paired_weekly_interval95": {
+      "mae": [
+        -0.5821313957570525,
+        0.33825006613334485
+      ],
+      "crps": [
+        -0.296835897660267,
+        0.3116940615852804
+      ]
+    },
+    "paired_box_coverage": 1.0
+  },
+  "record": {
+    "games": 0
+  },
+  "limits": [
+    "Estimated possessions, not official play-by-play pace.",
+    "Previously inspected season; exploratory comparison.",
+    "No historical priced over/under accuracy without timestamped quotes.",
+    "Player absences are not quantitatively modeled."
+  ]
+}

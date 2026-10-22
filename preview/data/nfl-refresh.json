@@ -1,0 +1,39 @@
+{
+  "running": false,
+  "error": null,
+  "phase": "NFL updated",
+  "components": {
+    "forecast": {
+      "status": "ok",
+      "updated_at": "2026-10-21T23:45:07.855747+00:00"
+    },
+    "context": {
+      "status": "ok",
+      "updated_at": "2026-10-21T23:45:09.276871+00:00"
+    },
+    "odds": {
+      "status": "ok",
+      "updated_at": "2026-10-21T23:45:10.915824+00:00",
+      "closed_excluded": 0
+    },
+    "joint": {
+      "status": "ok",
+      "updated_at": "2026-10-21T23:45:11.007824+00:00"
+    },
+    "team_stats": {
+      "status": "ok",
+      "updated_at": "2026-10-21T23:45:12.135595+00:00"
+    },
+    "touchdowns": {
+      "status": "ok",
+      "updated_at": "2026-10-21T23:45:17.203471+00:00"
+    },
+    "grading": {
+      "status": "ok",
+      "updated_at": "2026-10-21T23:45:17.363729+00:00"
+    }
+  },
+  "started_at": "2026-10-21T23:45:06.245180+00:00",
+  "finished_at": "2026-10-21T23:45:17.365729+00:00",
+  "forecast_generated_at": "2026-10-21T23:45:06.248167+00:00"
+}

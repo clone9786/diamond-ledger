@@ -1,0 +1,19 @@
+{
+  "id": "./home.html",
+  "name": "Diamond Ledger",
+  "short_name": "Ledger",
+  "description": "Football matchups, season comparisons, odds and results.",
+  "start_url": "./home.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#131416",
+  "theme_color": "#1b1c20",
+  "icons": [
+    {
+      "src": "ledger-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

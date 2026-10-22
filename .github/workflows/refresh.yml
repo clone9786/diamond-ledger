@@ -1,0 +1,60 @@
+name: Update Diamond Ledger
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17,47 * * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: diamond-ledger-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          path: viewer
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          repository: ${{ secrets.ENGINE_REPOSITORY }}
+          ssh-key: ${{ secrets.ENGINE_SSH_KEY }}
+          path: engine
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: engine/requirements-ml.txt
+      - run: python -m pip install --only-binary=:all: -r engine/requirements-ml.txt
+      - name: Compute and prepare the public data
+        id: refresh
+        run: python engine/tools/cloud_refresh.py --output "$GITHUB_WORKSPACE/site"
+      - name: Preserve new forecasts and completed results privately
+        if: ${{ always() && (steps.refresh.outcome == 'success' || steps.refresh.outcome == 'failure') }}
+        working-directory: engine
+        run: python tools/cloud_checkpoint.py
+      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: site
+          retention-days: 1
+      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+        id: deployment
+      - name: Record daily publication activity
+        working-directory: viewer
+        run: |
+          python -c "import json,datetime,pathlib; p=pathlib.Path('publication.json'); d=datetime.datetime.now(datetime.timezone.utc).date().isoformat(); old=json.loads(p.read_text()) if p.exists() else {}; p.write_text(json.dumps({'date':d})) if old.get('date')!=d else None"
+          git config user.name "Diamond Ledger"
+          git config user.email "actions@users.noreply.github.com"
+          git add publication.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record daily data publication"
+            git push
+          fi

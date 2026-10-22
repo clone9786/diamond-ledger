@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-10-21T23:45:31.342681+00:00",
+  "sports": {
+    "nba": {
+      "winners": {
+        "games": 2,
+        "wins": 0,
+        "accuracy": 0.0,
+        "mean_chance": 0.5944214289439884,
+        "brier": 0.35598245407563267,
+        "accuracy_interval95": [
+          0.0,
+          0.6576280471103807
+        ]
+      },
+      "ties": 0,
+      "confidence_bins": [
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "games": 1,
+          "wins": 0,
+          "accuracy": 0.0,
+          "mean_chance": 0.5429858489645664,
+          "brier": 0.29483363217577085,
+          "accuracy_interval95": [
+            0.0,
+            0.7934567085261071
+          ]
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "games": 1,
+          "wins": 0,
+          "accuracy": 0.0,
+          "mean_chance": 0.6458570089234106,
+          "brier": 0.41713127597549443,
+          "accuracy_interval95": [
+            0.0,
+            0.7934567085261071
+          ]
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "games": 0
+        },
+        {
+          "lower": 0.8,
+          "upper": 1,
+          "games": 0
+        }
+      ],
+      "total_error": {
+        "bias": 21.490035450297896,
+        "mae": 21.490035450297896
+      },
+      "margin_error": {
+        "bias": 11.513549016460608,
+        "mae": 11.513549016460608
+      },
+      "rows": [
+        {
+          "game_pk": 401909089,
+          "date": "2026-10-20",
+          "matchup": "Philadelphia 76ers at New York Knicks",
+          "chance": 0.6458570089234106,
+          "won": 0,
+          "tie": false,
+          "total_error": 26.561265840896766,
+          "margin_error": 10.193340557291563,
+          "forecast": "2026-10-20T19:28:30.446646+00:00",
+          "result_source": "https://www.espn.com/nba/game/_/gameId/401909089"
+        },
+        {
+          "game_pk": 401909090,
+          "date": "2026-10-20",
+          "matchup": "Oklahoma City Thunder at San Antonio Spurs",
+          "chance": 0.5429858489645664,
+          "won": 0,
+          "tie": false,
+          "total_error": 16.418805059699025,
+          "margin_error": 12.833757475629653,
+          "forecast": "2026-10-20T19:28:30.446646+00:00",
+          "result_source": "https://www.espn.com/nba/game/_/gameId/401909090"
+        }
+      ]
+    }
+  }
+}

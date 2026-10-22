@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Diamond Ledger | NHL</title><link rel="stylesheet" href="desk.css"><link rel="stylesheet" href="gameday.css"><link rel="stylesheet" href="ledger-theme.css"><link rel="stylesheet" href="team-stats.css"><link rel="manifest" href="ledger.webmanifest"><link rel="icon" href="ledger-icon.svg"><link rel="stylesheet" href="pick-record.css"><link rel="stylesheet" href="nhl-goalies.css"><link rel="stylesheet" href="shared-mode.css"><script src="shared-mode.js"></script></head>
+<body data-sport="nhl">
+<header class="mast"><a class="brand" href="home.html">Diamond Ledger</a><nav aria-label="NHL navigation"><button data-view="games" class="active">Matchups</button><button data-view="prices">Prices</button><button data-view="results">Results</button></nav><button class="refresh" id="refresh-nhl">Update NHL</button></header>
+<div class="sport-nav"><a href="home.html">Home</a><a href="nfl.html">NFL</a><a href="football.html">College football</a><a href="nba.html">NBA</a><a href="nhl.html" class="active">NHL</a><a href="parlays.html?sport=nhl">Parlay Lab ↗</a></div>
+<main><div class="page-heading"><div><div class="eyebrow">2026–27 REGULAR SEASON</div><h1>NHL / Matchups</h1></div><span class="freshness" id="nhl-updated"></span></div>
+<p id="notice" role="status"></p>
+<section id="nhl-games-view"><div class="toolbar"><input id="nhl-search" type="search" aria-label="Find an NHL team" placeholder="Find a team"><button id="nhl-today" aria-pressed="true">Today</button></div><div class="slate-labels"><span>Matchup</span><span>Projected score</span><span>Winner estimate</span><span>Total goals</span></div><div id="nhl-games"></div></section>
+<section id="nhl-prices-view" hidden><h2>DraftKings / all games</h2><p class="note">All available pregame moneylines, puck lines and totals. Sort by any column; model chance includes refunded pushes separately.</p><div id="nhl-prices"></div></section>
+<section id="nhl-results-view" hidden></section>
+<details><summary>NHL model</summary><div id="nhl-model" class="note"></div></details>
+<footer>NHL forecasts and reported DraftKings prices via ESPN. No live-game forecasting.</footer></main>
+<dialog id="nhl-room"><div class="room-top"><button class="icon" id="close-nhl" aria-label="Close NHL matchup">×</button><h2 id="nhl-title"></h2></div><div id="nhl-detail" style="padding:20px"></div></dialog>
+<link rel="stylesheet" href="sports-prices.css"><script src="price-store.js"></script><script src="prices-ui.js"></script><script src="sports-prices.js"></script><script src="engine-markets.js"></script><script src="football-markets.js"></script><script src="nhl-goalies.js"></script><script src="team-stats.js"></script><script src="pick-record.js"></script><script src="nhl.js"></script><script src="ledger-brand.js"></script>
+<link rel="stylesheet" href="usage-analytics.css"><script src="usage-analytics.js"></script></body></html>

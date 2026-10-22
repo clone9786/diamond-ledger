@@ -1,0 +1,1119 @@
+{
+  "sport": "nhl",
+  "retrieved_at": "2026-10-21T23:45:43.905219+00:00",
+  "games": {
+    "401892539": {
+      "game_pk": 401892539,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892539",
+      "source": "ESPN",
+      "market": null,
+      "error": "Pregame prices unavailable: event is not pregame.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:41.262052+00:00",
+      "checked_slate": [
+        "10",
+        "18",
+        "2026-10-20T23:00:00+00:00"
+      ]
+    },
+    "401892540": {
+      "game_pk": 401892540,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892540",
+      "source": "ESPN",
+      "market": null,
+      "error": "Pregame prices unavailable: event is not pregame.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:41.295691+00:00",
+      "checked_slate": [
+        "11",
+        "17",
+        "2026-10-20T23:00:00+00:00"
+      ]
+    },
+    "401892541": {
+      "game_pk": 401892541,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892541",
+      "source": "ESPN",
+      "market": null,
+      "error": "Pregame prices unavailable: event is not pregame.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:41.286691+00:00",
+      "checked_slate": [
+        "12",
+        "25",
+        "2026-10-20T23:00:00+00:00"
+      ]
+    },
+    "401892542": {
+      "game_pk": 401892542,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892542",
+      "source": "ESPN",
+      "market": null,
+      "error": "Pregame prices unavailable: event is not pregame.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:41.299691+00:00",
+      "checked_slate": [
+        "23",
+        "8",
+        "2026-10-20T23:00:00+00:00"
+      ]
+    },
+    "401892543": {
+      "game_pk": 401892543,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892543",
+      "source": "ESPN",
+      "market": null,
+      "error": "Pregame prices unavailable: event is not pregame.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:41.475547+00:00",
+      "checked_slate": [
+        "29",
+        "21",
+        "2026-10-20T23:00:00+00:00"
+      ]
+    },
+    "401892544": {
+      "game_pk": 401892544,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892544",
+      "source": "ESPN",
+      "market": null,
+      "error": "Pregame prices unavailable: event is not pregame.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:41.497094+00:00",
+      "checked_slate": [
+        "19",
+        "28",
+        "2026-10-21T00:00:00+00:00"
+      ]
+    },
+    "401892545": {
+      "game_pk": 401892545,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892545",
+      "source": "ESPN",
+      "market": null,
+      "error": "Pregame prices unavailable: event is not pregame.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:41.534362+00:00",
+      "checked_slate": [
+        "9",
+        "1",
+        "2026-10-21T00:00:00+00:00"
+      ]
+    },
+    "401892546": {
+      "game_pk": 401892546,
+      "retrieved_at": "2026-10-21T00:41:32.241723+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892546",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -135.0,
+        "away_ml": 114.0,
+        "home_spread": -1.5,
+        "away_spread": 1.5,
+        "home_spread_odds": 185.0,
+        "away_spread_odds": -225.0,
+        "total": 6.5,
+        "over_odds": 100.0,
+        "under_odds": -120.0
+      },
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:41.522332+00:00",
+      "checked_slate": [
+        "6",
+        "30",
+        "2026-10-21T01:00:00+00:00"
+      ],
+      "error": "Pregame prices unavailable: event is not pregame."
+    },
+    "401892547": {
+      "game_pk": 401892547,
+      "retrieved_at": "2026-10-21T01:41:31.178755+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892547",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": 102.0,
+        "away_ml": -122.0,
+        "home_spread": 1.5,
+        "away_spread": -1.5,
+        "home_spread_odds": -245.0,
+        "away_spread_odds": 200.0,
+        "total": 6.5,
+        "over_odds": -105.0,
+        "under_odds": -115.0
+      },
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:41.664862+00:00",
+      "checked_slate": [
+        "124292",
+        "5",
+        "2026-10-21T01:40:00+00:00"
+      ],
+      "error": "Pregame prices unavailable: event is not pregame."
+    },
+    "401892548": {
+      "game_pk": 401892548,
+      "retrieved_at": "2026-10-21T01:41:31.197979+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892548",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": 240.0,
+        "away_ml": -298.0,
+        "home_spread": 1.5,
+        "away_spread": -1.5,
+        "home_spread_odds": -102.0,
+        "away_spread_odds": -118.0,
+        "total": 6.5,
+        "over_odds": -105.0,
+        "under_odds": -115.0
+      },
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:41.692062+00:00",
+      "checked_slate": [
+        "22",
+        "7",
+        "2026-10-21T02:00:00+00:00"
+      ],
+      "error": "Pregame prices unavailable: event is not pregame."
+    },
+    "401892549": {
+      "game_pk": 401892549,
+      "retrieved_at": "2026-10-21T02:41:33.824706+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892549",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -110.0,
+        "away_ml": -110.0,
+        "home_spread": -1.5,
+        "away_spread": 1.5,
+        "home_spread_odds": 220.0,
+        "away_spread_odds": -270.0,
+        "total": 6.5,
+        "over_odds": 110.0,
+        "under_odds": -130.0
+      },
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:41.636607+00:00",
+      "checked_slate": [
+        "37",
+        "20",
+        "2026-10-21T02:45:00+00:00"
+      ],
+      "error": "Pregame prices unavailable: event is not pregame."
+    },
+    "401892550": {
+      "game_pk": 401892550,
+      "retrieved_at": "2026-10-21T23:15:42.695450+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892550",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -218.0,
+        "away_ml": 180.0,
+        "home_spread": -1.5,
+        "away_spread": 1.5,
+        "home_spread_odds": 124.0,
+        "away_spread_odds": -148.0,
+        "total": 6.5,
+        "over_odds": 114.0,
+        "under_odds": -135.0
+      },
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.015272+00:00",
+      "checked_slate": [
+        "2",
+        "15",
+        "2026-10-21T23:30:00+00:00"
+      ],
+      "error": "Pregame prices unavailable: event is not pregame."
+    },
+    "401892551": {
+      "game_pk": 401892551,
+      "retrieved_at": "2026-10-21T23:45:43.996007+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892551",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -110.0,
+        "away_ml": -110.0,
+        "home_spread": -1.5,
+        "away_spread": 1.5,
+        "home_spread_odds": 225.0,
+        "away_spread_odds": -278.0,
+        "total": 5.5,
+        "over_odds": -110.0,
+        "under_odds": -110.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:43.996007+00:00",
+      "checked_slate": [
+        "14",
+        "26",
+        "2026-10-21T23:30:00+00:00"
+      ]
+    },
+    "401892552": {
+      "game_pk": 401892552,
+      "retrieved_at": "2026-10-21T23:45:44.167829+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892552",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -155.0,
+        "away_ml": 130.0,
+        "home_spread": -1.5,
+        "away_spread": 1.5,
+        "home_spread_odds": 160.0,
+        "away_spread_odds": -192.0,
+        "total": 5.5,
+        "over_odds": -130.0,
+        "under_odds": 110.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:44.167829+00:00",
+      "checked_slate": [
+        "1",
+        "27",
+        "2026-10-22T23:00:00+00:00"
+      ]
+    },
+    "401892553": {
+      "game_pk": 401892553,
+      "retrieved_at": "2026-10-21T23:45:44.045653+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892553",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -108.0,
+        "away_ml": -112.0,
+        "home_spread": 1.5,
+        "away_spread": -1.5,
+        "home_spread_odds": -270.0,
+        "away_spread_odds": 220.0,
+        "total": 6.5,
+        "over_odds": -105.0,
+        "under_odds": -115.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:44.045653+00:00",
+      "checked_slate": [
+        "21",
+        "13",
+        "2026-10-22T23:00:00+00:00"
+      ]
+    },
+    "401892554": {
+      "game_pk": 401892554,
+      "retrieved_at": "2026-10-21T23:45:44.146828+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892554",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -130.0,
+        "away_ml": 110.0,
+        "home_spread": -1.5,
+        "away_spread": 1.5,
+        "home_spread_odds": 180.0,
+        "away_spread_odds": -218.0,
+        "total": 6.5,
+        "over_odds": -102.0,
+        "under_odds": -118.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:44.146828+00:00",
+      "checked_slate": [
+        "14",
+        "18",
+        "2026-10-22T23:00:00+00:00"
+      ]
+    },
+    "401892555": {
+      "game_pk": 401892555,
+      "retrieved_at": "2026-10-21T23:45:44.170828+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892555",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -198.0,
+        "away_ml": 164.0,
+        "home_spread": -1.5,
+        "away_spread": 1.5,
+        "home_spread_odds": 130.0,
+        "away_spread_odds": -155.0,
+        "total": 6.5,
+        "over_odds": -105.0,
+        "under_odds": -115.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:44.170828+00:00",
+      "checked_slate": [
+        "11",
+        "25",
+        "2026-10-22T23:00:00+00:00"
+      ]
+    },
+    "401892556": {
+      "game_pk": 401892556,
+      "retrieved_at": "2026-10-21T23:45:44.165828+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892556",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -120.0,
+        "away_ml": 100.0,
+        "home_spread": 1.5,
+        "away_spread": -1.5,
+        "home_spread_odds": -305.0,
+        "away_spread_odds": 245.0,
+        "total": 6.5,
+        "over_odds": -142.0,
+        "under_odds": 120.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:44.165828+00:00",
+      "checked_slate": [
+        "16",
+        "26",
+        "2026-10-22T23:00:00+00:00"
+      ]
+    },
+    "401892557": {
+      "game_pk": 401892557,
+      "retrieved_at": "2026-10-21T23:45:44.274932+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892557",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -120.0,
+        "away_ml": 100.0,
+        "home_spread": -1.5,
+        "away_spread": 1.5,
+        "home_spread_odds": 230.0,
+        "away_spread_odds": -285.0,
+        "total": 5.5,
+        "over_odds": -105.0,
+        "under_odds": -115.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:44.274932+00:00",
+      "checked_slate": [
+        "12",
+        "8",
+        "2026-10-22T23:30:00+00:00"
+      ]
+    },
+    "401892558": {
+      "game_pk": 401892558,
+      "retrieved_at": "2026-10-21T23:45:44.252450+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892558",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": 100.0,
+        "away_ml": -120.0,
+        "home_spread": 1.5,
+        "away_spread": -1.5,
+        "home_spread_odds": -258.0,
+        "away_spread_odds": 210.0,
+        "total": 6.5,
+        "over_odds": 114.0,
+        "under_odds": -135.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:44.252450+00:00",
+      "checked_slate": [
+        "19",
+        "37",
+        "2026-10-23T00:00:00+00:00"
+      ]
+    },
+    "401892559": {
+      "game_pk": 401892559,
+      "retrieved_at": "2026-10-21T23:45:44.322415+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892559",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -205.0,
+        "away_ml": 170.0,
+        "home_spread": -1.5,
+        "away_spread": 1.5,
+        "home_spread_odds": 130.0,
+        "away_spread_odds": -155.0,
+        "total": 5.5,
+        "over_odds": -122.0,
+        "under_odds": 102.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:44.322415+00:00",
+      "checked_slate": [
+        "9",
+        "28",
+        "2026-10-23T00:00:00+00:00"
+      ]
+    },
+    "401892560": {
+      "game_pk": 401892560,
+      "retrieved_at": "2026-10-21T23:45:44.313412+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892560",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": 160.0,
+        "away_ml": -192.0,
+        "home_spread": 1.5,
+        "away_spread": -1.5,
+        "home_spread_odds": -155.0,
+        "away_spread_odds": 130.0,
+        "total": 5.5,
+        "over_odds": -122.0,
+        "under_odds": 102.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:44.313412+00:00",
+      "checked_slate": [
+        "3",
+        "30",
+        "2026-10-23T01:00:00+00:00"
+      ]
+    },
+    "401892561": {
+      "game_pk": 401892561,
+      "retrieved_at": "2026-10-21T23:45:44.409159+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892561",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -102.0,
+        "away_ml": -118.0,
+        "home_spread": 1.5,
+        "away_spread": -1.5,
+        "home_spread_odds": -250.0,
+        "away_spread_odds": 205.0,
+        "total": 6.5,
+        "over_odds": -105.0,
+        "under_odds": -115.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:44.409159+00:00",
+      "checked_slate": [
+        "6",
+        "7",
+        "2026-10-23T01:00:00+00:00"
+      ]
+    },
+    "401892562": {
+      "game_pk": 401892562,
+      "retrieved_at": "2026-10-21T23:45:44.407162+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892562",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": 136.0,
+        "away_ml": -162.0,
+        "home_spread": 1.5,
+        "away_spread": -1.5,
+        "home_spread_odds": -180.0,
+        "away_spread_odds": 150.0,
+        "total": 6.5,
+        "over_odds": -105.0,
+        "under_odds": -115.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:44.407162+00:00",
+      "checked_slate": [
+        "124292",
+        "129764",
+        "2026-10-23T02:00:00+00:00"
+      ]
+    },
+    "401892563": {
+      "game_pk": 401892563,
+      "retrieved_at": "2026-10-21T23:45:44.453616+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892563",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": 142.0,
+        "away_ml": -170.0,
+        "home_spread": 1.5,
+        "away_spread": -1.5,
+        "home_spread_odds": -175.0,
+        "away_spread_odds": 145.0,
+        "total": 6.5,
+        "over_odds": -105.0,
+        "under_odds": -115.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:44.453616+00:00",
+      "checked_slate": [
+        "22",
+        "5",
+        "2026-10-23T02:00:00+00:00"
+      ]
+    },
+    "401892564": {
+      "game_pk": 401892564,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892564",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.414198+00:00",
+      "checked_slate": [
+        "4",
+        "10",
+        "2026-10-24T00:00:00+00:00"
+      ]
+    },
+    "401892565": {
+      "game_pk": 401892565,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892565",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.519693+00:00",
+      "checked_slate": [
+        "17",
+        "20",
+        "2026-10-24T01:00:00+00:00"
+      ]
+    },
+    "401892566": {
+      "game_pk": 401892566,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892566",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.506890+00:00",
+      "checked_slate": [
+        "15",
+        "25",
+        "2026-10-24T17:00:00+00:00"
+      ]
+    },
+    "401892567": {
+      "game_pk": 401892567,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892567",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.557702+00:00",
+      "checked_slate": [
+        "11",
+        "8",
+        "2026-10-24T19:30:00+00:00"
+      ]
+    },
+    "401892568": {
+      "game_pk": 401892568,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892568",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.618285+00:00",
+      "checked_slate": [
+        "1",
+        "18",
+        "2026-10-24T23:00:00+00:00"
+      ]
+    },
+    "401892569": {
+      "game_pk": 401892569,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892569",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.627633+00:00",
+      "checked_slate": [
+        "14",
+        "13",
+        "2026-10-24T23:00:00+00:00"
+      ]
+    },
+    "401892570": {
+      "game_pk": 401892570,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892570",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.667313+00:00",
+      "checked_slate": [
+        "16",
+        "27",
+        "2026-10-24T23:00:00+00:00"
+      ]
+    },
+    "401892571": {
+      "game_pk": 401892571,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892571",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.706342+00:00",
+      "checked_slate": [
+        "23",
+        "2",
+        "2026-10-24T23:00:00+00:00"
+      ]
+    },
+    "401892572": {
+      "game_pk": 401892572,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892572",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.104182+00:00",
+      "checked_slate": [
+        "29",
+        "37",
+        "2026-10-24T23:00:00+00:00"
+      ]
+    },
+    "401892573": {
+      "game_pk": 401892573,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892573",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.805120+00:00",
+      "checked_slate": [
+        "19",
+        "7",
+        "2026-10-24T23:00:00+00:00"
+      ]
+    },
+    "401892574": {
+      "game_pk": 401892574,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892574",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.778605+00:00",
+      "checked_slate": [
+        "6",
+        "21",
+        "2026-10-24T23:00:00+00:00"
+      ]
+    },
+    "401892575": {
+      "game_pk": 401892575,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892575",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.812490+00:00",
+      "checked_slate": [
+        "129764",
+        "20",
+        "2026-10-25T01:00:00+00:00"
+      ]
+    },
+    "401892576": {
+      "game_pk": 401892576,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892576",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.929202+00:00",
+      "checked_slate": [
+        "3",
+        "5",
+        "2026-10-25T02:00:00+00:00"
+      ]
+    },
+    "401892577": {
+      "game_pk": 401892577,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892577",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.928204+00:00",
+      "checked_slate": [
+        "124292",
+        "30",
+        "2026-10-25T02:00:00+00:00"
+      ]
+    },
+    "401891807": {
+      "game_pk": 401891807,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401891807",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:44.927203+00:00",
+      "checked_slate": [
+        "28",
+        "10",
+        "2026-10-25T23:00:00+00:00"
+      ]
+    },
+    "401892578": {
+      "game_pk": 401892578,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892578",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.050021+00:00",
+      "checked_slate": [
+        "4",
+        "26",
+        "2026-10-25T19:00:00+00:00"
+      ]
+    },
+    "401892579": {
+      "game_pk": 401892579,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892579",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.076683+00:00",
+      "checked_slate": [
+        "9",
+        "12",
+        "2026-10-25T22:00:00+00:00"
+      ]
+    },
+    "401892580": {
+      "game_pk": 401892580,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892580",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.114946+00:00",
+      "checked_slate": [
+        "27",
+        "17",
+        "2026-10-26T00:00:00+00:00"
+      ]
+    },
+    "401892581": {
+      "game_pk": 401892581,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892581",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.169440+00:00",
+      "checked_slate": [
+        "22",
+        "30",
+        "2026-10-26T02:00:00+00:00"
+      ]
+    },
+    "401892582": {
+      "game_pk": 401892582,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892582",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.254780+00:00",
+      "checked_slate": [
+        "13",
+        "8",
+        "2026-10-26T23:00:00+00:00"
+      ]
+    },
+    "401892583": {
+      "game_pk": 401892583,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892583",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.208657+00:00",
+      "checked_slate": [
+        "3",
+        "21",
+        "2026-10-27T00:30:00+00:00"
+      ]
+    },
+    "401892584": {
+      "game_pk": 401892584,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892584",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.257778+00:00",
+      "checked_slate": [
+        "6",
+        "5",
+        "2026-10-27T01:30:00+00:00"
+      ]
+    },
+    "401892585": {
+      "game_pk": 401892585,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892585",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.316538+00:00",
+      "checked_slate": [
+        "15",
+        "29",
+        "2026-10-27T23:00:00+00:00"
+      ]
+    },
+    "401892586": {
+      "game_pk": 401892586,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892586",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.341593+00:00",
+      "checked_slate": [
+        "7",
+        "1",
+        "2026-10-28T00:00:00+00:00"
+      ]
+    },
+    "401892587": {
+      "game_pk": 401892587,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892587",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.381457+00:00",
+      "checked_slate": [
+        "4",
+        "8",
+        "2026-10-28T00:00:00+00:00"
+      ]
+    },
+    "401892588": {
+      "game_pk": 401892588,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892588",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.358670+00:00",
+      "checked_slate": [
+        "19",
+        "10",
+        "2026-10-28T00:00:00+00:00"
+      ]
+    },
+    "401892589": {
+      "game_pk": 401892589,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892589",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.454691+00:00",
+      "checked_slate": [
+        "27",
+        "12",
+        "2026-10-28T00:00:00+00:00"
+      ]
+    },
+    "401892590": {
+      "game_pk": 401892590,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892590",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.460948+00:00",
+      "checked_slate": [
+        "9",
+        "11",
+        "2026-10-28T00:00:00+00:00"
+      ]
+    },
+    "401892591": {
+      "game_pk": 401892591,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892591",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.499361+00:00",
+      "checked_slate": [
+        "28",
+        "26",
+        "2026-10-28T00:00:00+00:00"
+      ]
+    },
+    "401892592": {
+      "game_pk": 401892592,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892592",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.478721+00:00",
+      "checked_slate": [
+        "129764",
+        "30",
+        "2026-10-28T01:00:00+00:00"
+      ]
+    },
+    "401892593": {
+      "game_pk": 401892593,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892593",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.570552+00:00",
+      "checked_slate": [
+        "37",
+        "14",
+        "2026-10-28T02:00:00+00:00"
+      ]
+    },
+    "401892594": {
+      "game_pk": 401892594,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892594",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.562427+00:00",
+      "checked_slate": [
+        "25",
+        "22",
+        "2026-10-28T02:00:00+00:00"
+      ]
+    },
+    "401892595": {
+      "game_pk": 401892595,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/summary?event=401892595",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:45.600041+00:00",
+      "checked_slate": [
+        "18",
+        "2",
+        "2026-10-28T02:30:00+00:00"
+      ]
+    }
+  }
+}

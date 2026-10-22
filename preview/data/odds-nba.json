@@ -1,0 +1,1079 @@
+{
+  "sport": "nba",
+  "retrieved_at": "2026-10-21T23:45:34.919457+00:00",
+  "games": {
+    "401909088": {
+      "game_pk": 401909088,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909088",
+      "source": "ESPN",
+      "market": null,
+      "error": "Pregame prices unavailable: event is not pregame.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:37.521590+00:00",
+      "checked_slate": [
+        "8",
+        "2",
+        "2026-10-20T19:00:00+00:00"
+      ]
+    },
+    "401909089": {
+      "game_pk": 401909089,
+      "retrieved_at": "2026-10-20T23:05:45.031026+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909089",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -175.0,
+        "away_ml": 145.0,
+        "home_spread": -4.5,
+        "away_spread": 4.5,
+        "home_spread_odds": -108.0,
+        "away_spread_odds": -112.0,
+        "total": 231.5,
+        "over_odds": -108.0,
+        "under_odds": -112.0
+      },
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:37.411255+00:00",
+      "checked_slate": [
+        "18",
+        "20",
+        "2026-10-20T23:00:00+00:00"
+      ],
+      "error": "Pregame prices unavailable: event is not pregame."
+    },
+    "401909090": {
+      "game_pk": 401909090,
+      "retrieved_at": "2026-10-21T01:41:25.950018+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909090",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -102.0,
+        "away_ml": -118.0,
+        "home_spread": 1.5,
+        "away_spread": -1.5,
+        "home_spread_odds": -112.0,
+        "away_spread_odds": -108.0,
+        "total": 229.5,
+        "over_odds": -108.0,
+        "under_odds": -112.0
+      },
+      "stale": true,
+      "last_checked_at": "2026-10-21T03:41:37.470551+00:00",
+      "checked_slate": [
+        "24",
+        "25",
+        "2026-10-21T01:50:00+00:00"
+      ],
+      "error": "Pregame prices unavailable: event is not pregame."
+    },
+    "401909091": {
+      "game_pk": 401909091,
+      "retrieved_at": "2026-10-21T23:15:34.377758+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909091",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -118.0,
+        "away_ml": -102.0,
+        "home_spread": -1.5,
+        "away_spread": 1.5,
+        "home_spread_odds": -108.0,
+        "away_spread_odds": -112.0,
+        "total": 240.5,
+        "over_odds": -110.0,
+        "under_odds": -110.0
+      },
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.040285+00:00",
+      "checked_slate": [
+        "14",
+        "16",
+        "2026-10-21T23:30:00+00:00"
+      ],
+      "error": "Pregame prices unavailable: event is not pregame."
+    },
+    "401909092": {
+      "game_pk": 401909092,
+      "retrieved_at": "2026-10-21T23:45:35.032386+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909092",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -230.0,
+        "away_ml": 190.0,
+        "home_spread": -6.5,
+        "away_spread": 6.5,
+        "home_spread_odds": -112.0,
+        "away_spread_odds": -108.0,
+        "total": 234.5,
+        "over_odds": -112.0,
+        "under_odds": -108.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:35.032386+00:00",
+      "checked_slate": [
+        "13",
+        "9",
+        "2026-10-22T02:00:00+00:00"
+      ]
+    },
+    "401909834": {
+      "game_pk": 401909834,
+      "retrieved_at": "2026-10-21T22:45:27.342468+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909834",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -130.0,
+        "away_ml": 110.0,
+        "home_spread": -2.5,
+        "away_spread": 2.5,
+        "home_spread_odds": -108.0,
+        "away_spread_odds": -112.0,
+        "total": 233.5,
+        "over_odds": -115.0,
+        "under_odds": -105.0
+      },
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.099309+00:00",
+      "checked_slate": [
+        "19",
+        "1",
+        "2026-10-21T23:00:00+00:00"
+      ],
+      "error": "Pregame prices unavailable: event is not pregame."
+    },
+    "401909835": {
+      "game_pk": 401909835,
+      "retrieved_at": "2026-10-21T23:15:34.319482+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909835",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -175.0,
+        "away_ml": 145.0,
+        "home_spread": -4.5,
+        "away_spread": 4.5,
+        "home_spread_odds": -105.0,
+        "away_spread_odds": -115.0,
+        "total": 239.5,
+        "over_odds": -102.0,
+        "under_odds": -118.0
+      },
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.020386+00:00",
+      "checked_slate": [
+        "27",
+        "15",
+        "2026-10-21T23:00:00+00:00"
+      ],
+      "error": "Pregame prices unavailable: event is not pregame."
+    },
+    "401909836": {
+      "game_pk": 401909836,
+      "retrieved_at": "2026-10-21T23:15:34.462148+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909836",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": 105.0,
+        "away_ml": -125.0,
+        "home_spread": 1.5,
+        "away_spread": -1.5,
+        "home_spread_odds": -110.0,
+        "away_spread_odds": -110.0,
+        "total": 219.5,
+        "over_odds": -112.0,
+        "under_odds": -108.0
+      },
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.109805+00:00",
+      "checked_slate": [
+        "17",
+        "30",
+        "2026-10-21T23:30:00+00:00"
+      ],
+      "error": "Pregame prices unavailable: event is not pregame."
+    },
+    "401909837": {
+      "game_pk": 401909837,
+      "retrieved_at": "2026-10-21T23:15:34.460145+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909837",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -470.0,
+        "away_ml": 360.0,
+        "home_spread": -10.5,
+        "away_spread": 10.5,
+        "home_spread_odds": -112.0,
+        "away_spread_odds": -108.0,
+        "total": 237.5,
+        "over_odds": -115.0,
+        "under_odds": -105.0
+      },
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.173849+00:00",
+      "checked_slate": [
+        "28",
+        "4",
+        "2026-10-21T23:30:00+00:00"
+      ],
+      "error": "Pregame prices unavailable: event is not pregame."
+    },
+    "401909838": {
+      "game_pk": 401909838,
+      "retrieved_at": "2026-10-21T23:45:35.132298+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909838",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -125.0,
+        "away_ml": 105.0,
+        "home_spread": -1.5,
+        "away_spread": 1.5,
+        "home_spread_odds": -115.0,
+        "away_spread_odds": -105.0,
+        "total": 240.5,
+        "over_odds": -115.0,
+        "under_odds": -105.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:35.132298+00:00",
+      "checked_slate": [
+        "29",
+        "26",
+        "2026-10-22T00:00:00+00:00"
+      ]
+    },
+    "401909839": {
+      "game_pk": 401909839,
+      "retrieved_at": "2026-10-21T23:45:35.168623+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909839",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": 120.0,
+        "away_ml": -142.0,
+        "home_spread": 2.5,
+        "away_spread": -2.5,
+        "home_spread_odds": -102.0,
+        "away_spread_odds": -118.0,
+        "total": 238.5,
+        "over_odds": -115.0,
+        "under_odds": -105.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:35.168623+00:00",
+      "checked_slate": [
+        "3",
+        "11",
+        "2026-10-22T00:00:00+00:00"
+      ]
+    },
+    "401909840": {
+      "game_pk": 401909840,
+      "retrieved_at": "2026-10-21T23:45:35.190861+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909840",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -425.0,
+        "away_ml": 330.0,
+        "home_spread": -9.5,
+        "away_spread": 9.5,
+        "home_spread_odds": -118.0,
+        "away_spread_odds": -102.0,
+        "total": 230.5,
+        "over_odds": -102.0,
+        "under_odds": -118.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:35.190861+00:00",
+      "checked_slate": [
+        "10",
+        "6",
+        "2026-10-22T00:30:00+00:00"
+      ]
+    },
+    "401909841": {
+      "game_pk": 401909841,
+      "retrieved_at": "2026-10-21T23:45:35.232730+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909841",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -142.0,
+        "away_ml": 120.0,
+        "home_spread": -2.5,
+        "away_spread": 2.5,
+        "home_spread_odds": -112.0,
+        "away_spread_odds": -108.0,
+        "total": 231.5,
+        "over_odds": -112.0,
+        "under_odds": -108.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:35.232730+00:00",
+      "checked_slate": [
+        "22",
+        "21",
+        "2026-10-22T02:00:00+00:00"
+      ]
+    },
+    "401909842": {
+      "game_pk": 401909842,
+      "retrieved_at": "2026-10-21T23:45:35.288759+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909842",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -185.0,
+        "away_ml": 154.0,
+        "home_spread": -5.5,
+        "away_spread": 5.5,
+        "home_spread_odds": -105.0,
+        "away_spread_odds": -115.0,
+        "total": 226.5,
+        "over_odds": -112.0,
+        "under_odds": -108.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:35.288759+00:00",
+      "checked_slate": [
+        "12",
+        "23",
+        "2026-10-22T02:30:00+00:00"
+      ]
+    },
+    "401909093": {
+      "game_pk": 401909093,
+      "retrieved_at": "2026-10-21T23:45:35.304760+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909093",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -155.0,
+        "away_ml": 130.0,
+        "home_spread": -3.5,
+        "away_spread": 3.5,
+        "home_spread_odds": -105.0,
+        "away_spread_odds": -115.0,
+        "total": 235.5,
+        "over_odds": -112.0,
+        "under_odds": -108.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:35.304760+00:00",
+      "checked_slate": [
+        "20",
+        "5",
+        "2026-10-22T23:00:00+00:00"
+      ]
+    },
+    "401909094": {
+      "game_pk": 401909094,
+      "retrieved_at": "2026-10-21T23:45:35.348761+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909094",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -298.0,
+        "away_ml": 250.0,
+        "home_spread": -7.5,
+        "away_spread": 7.5,
+        "home_spread_odds": -115.0,
+        "away_spread_odds": -105.0,
+        "total": 235.5,
+        "over_odds": -110.0,
+        "under_odds": -110.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:35.348761+00:00",
+      "checked_slate": [
+        "25",
+        "7",
+        "2026-10-23T01:30:00+00:00"
+      ]
+    },
+    "401909095": {
+      "game_pk": 401909095,
+      "retrieved_at": "2026-10-21T23:45:35.352760+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909095",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -135.0,
+        "away_ml": 114.0,
+        "home_spread": -2.5,
+        "away_spread": 2.5,
+        "home_spread_odds": -110.0,
+        "away_spread_odds": -110.0,
+        "total": 223.5,
+        "over_odds": -110.0,
+        "under_odds": -110.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:35.352760+00:00",
+      "checked_slate": [
+        "2",
+        "18",
+        "2026-10-23T23:00:00+00:00"
+      ]
+    },
+    "401909096": {
+      "game_pk": 401909096,
+      "retrieved_at": "2026-10-21T23:45:35.424713+00:00",
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909096",
+      "source": "ESPN",
+      "market": {
+        "book": "DraftKings",
+        "home_ml": -290.0,
+        "away_ml": 235.0,
+        "home_spread": -7.5,
+        "away_spread": 7.5,
+        "home_spread_odds": -105.0,
+        "away_spread_odds": -115.0,
+        "total": 225.5,
+        "over_odds": -110.0,
+        "under_odds": -110.0
+      },
+      "stale": false,
+      "last_checked_at": "2026-10-21T23:45:35.424713+00:00",
+      "checked_slate": [
+        "24",
+        "10",
+        "2026-10-24T01:30:00+00:00"
+      ]
+    },
+    "401909843": {
+      "game_pk": 401909843,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909843",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.509236+00:00",
+      "checked_slate": [
+        "30",
+        "1",
+        "2026-10-23T23:00:00+00:00"
+      ]
+    },
+    "401909844": {
+      "game_pk": 401909844,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909844",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.557974+00:00",
+      "checked_slate": [
+        "11",
+        "6",
+        "2026-10-23T23:00:00+00:00"
+      ]
+    },
+    "401909845": {
+      "game_pk": 401909845,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909845",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.477235+00:00",
+      "checked_slate": [
+        "19",
+        "16",
+        "2026-10-23T23:00:00+00:00"
+      ]
+    },
+    "401909846": {
+      "game_pk": 401909846,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909846",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.531551+00:00",
+      "checked_slate": [
+        "27",
+        "28",
+        "2026-10-23T23:00:00+00:00"
+      ]
+    },
+    "401909847": {
+      "game_pk": 401909847,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909847",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.568974+00:00",
+      "checked_slate": [
+        "14",
+        "8",
+        "2026-10-24T00:00:00+00:00"
+      ]
+    },
+    "401909848": {
+      "game_pk": 401909848,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909848",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.672545+00:00",
+      "checked_slate": [
+        "15",
+        "4",
+        "2026-10-23T20:00:00+00:00"
+      ]
+    },
+    "401909849": {
+      "game_pk": 401909849,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909849",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.654633+00:00",
+      "checked_slate": [
+        "26",
+        "3",
+        "2026-10-24T01:30:00+00:00"
+      ]
+    },
+    "401909850": {
+      "game_pk": 401909850,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909850",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.761680+00:00",
+      "checked_slate": [
+        "9",
+        "29",
+        "2026-10-24T02:00:00+00:00"
+      ]
+    },
+    "401909851": {
+      "game_pk": 401909851,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909851",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.699162+00:00",
+      "checked_slate": [
+        "13",
+        "12",
+        "2026-10-24T02:00:00+00:00"
+      ]
+    },
+    "401909852": {
+      "game_pk": 401909852,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909852",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.764664+00:00",
+      "checked_slate": [
+        "23",
+        "22",
+        "2026-10-24T02:00:00+00:00"
+      ]
+    },
+    "401909853": {
+      "game_pk": 401909853,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909853",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.951405+00:00",
+      "checked_slate": [
+        "30",
+        "14",
+        "2026-10-24T22:00:00+00:00"
+      ]
+    },
+    "401909854": {
+      "game_pk": 401909854,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909854",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.830943+00:00",
+      "checked_slate": [
+        "5",
+        "17",
+        "2026-10-24T23:30:00+00:00"
+      ]
+    },
+    "401909855": {
+      "game_pk": 401909855,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909855",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.846567+00:00",
+      "checked_slate": [
+        "20",
+        "15",
+        "2026-10-24T23:30:00+00:00"
+      ]
+    },
+    "401909856": {
+      "game_pk": 401909856,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909856",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.936896+00:00",
+      "checked_slate": [
+        "1",
+        "10",
+        "2026-10-25T00:30:00+00:00"
+      ]
+    },
+    "401909857": {
+      "game_pk": 401909857,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909857",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.033640+00:00",
+      "checked_slate": [
+        "4",
+        "27",
+        "2026-10-25T00:00:00+00:00"
+      ]
+    },
+    "401909858": {
+      "game_pk": 401909858,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909858",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:35.967301+00:00",
+      "checked_slate": [
+        "6",
+        "24",
+        "2026-10-25T00:00:00+00:00"
+      ]
+    },
+    "401909859": {
+      "game_pk": 401909859,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909859",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.054641+00:00",
+      "checked_slate": [
+        "7",
+        "3",
+        "2026-10-25T01:00:00+00:00"
+      ]
+    },
+    "401909860": {
+      "game_pk": 401909860,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909860",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.057641+00:00",
+      "checked_slate": [
+        "21",
+        "9",
+        "2026-10-25T02:00:00+00:00"
+      ]
+    },
+    "401909861": {
+      "game_pk": 401909861,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909861",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.100230+00:00",
+      "checked_slate": [
+        "26",
+        "13",
+        "2026-10-25T21:00:00+00:00"
+      ]
+    },
+    "401909862": {
+      "game_pk": 401909862,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909862",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.131872+00:00",
+      "checked_slate": [
+        "17",
+        "11",
+        "2026-10-25T22:00:00+00:00"
+      ]
+    },
+    "401909863": {
+      "game_pk": 401909863,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909863",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.228056+00:00",
+      "checked_slate": [
+        "18",
+        "19",
+        "2026-10-25T23:00:00+00:00"
+      ]
+    },
+    "401909864": {
+      "game_pk": 401909864,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909864",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.186238+00:00",
+      "checked_slate": [
+        "16",
+        "28",
+        "2026-10-25T23:00:00+00:00"
+      ]
+    },
+    "401909865": {
+      "game_pk": 401909865,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909865",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.326013+00:00",
+      "checked_slate": [
+        "25",
+        "12",
+        "2026-10-25T23:00:00+00:00"
+      ]
+    },
+    "401909866": {
+      "game_pk": 401909866,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909866",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.283231+00:00",
+      "checked_slate": [
+        "20",
+        "8",
+        "2026-10-25T23:30:00+00:00"
+      ]
+    },
+    "401909867": {
+      "game_pk": 401909867,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909867",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.312671+00:00",
+      "checked_slate": [
+        "23",
+        "29",
+        "2026-10-26T01:00:00+00:00"
+      ]
+    },
+    "401909868": {
+      "game_pk": 401909868,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909868",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.387767+00:00",
+      "checked_slate": [
+        "30",
+        "27",
+        "2026-10-26T23:00:00+00:00"
+      ]
+    },
+    "401909869": {
+      "game_pk": 401909869,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909869",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.431511+00:00",
+      "checked_slate": [
+        "5",
+        "16",
+        "2026-10-26T23:00:00+00:00"
+      ]
+    },
+    "401909870": {
+      "game_pk": 401909870,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909870",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.452561+00:00",
+      "checked_slate": [
+        "2",
+        "4",
+        "2026-10-26T23:30:00+00:00"
+      ]
+    },
+    "401909871": {
+      "game_pk": 401909871,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909871",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.433512+00:00",
+      "checked_slate": [
+        "14",
+        "6",
+        "2026-10-26T23:30:00+00:00"
+      ]
+    },
+    "401909872": {
+      "game_pk": 401909872,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909872",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.538651+00:00",
+      "checked_slate": [
+        "15",
+        "11",
+        "2026-10-27T00:00:00+00:00"
+      ]
+    },
+    "401909873": {
+      "game_pk": 401909873,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909873",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.814746+00:00",
+      "checked_slate": [
+        "25",
+        "21",
+        "2026-10-27T00:00:00+00:00"
+      ]
+    },
+    "401909874": {
+      "game_pk": 401909874,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909874",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.717170+00:00",
+      "checked_slate": [
+        "10",
+        "1",
+        "2026-10-27T00:30:00+00:00"
+      ]
+    },
+    "401909875": {
+      "game_pk": 401909875,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909875",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.590624+00:00",
+      "checked_slate": [
+        "26",
+        "29",
+        "2026-10-27T01:00:00+00:00"
+      ]
+    },
+    "401909876": {
+      "game_pk": 401909876,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909876",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.669629+00:00",
+      "checked_slate": [
+        "7",
+        "9",
+        "2026-10-27T02:00:00+00:00"
+      ]
+    },
+    "401909877": {
+      "game_pk": 401909877,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909877",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.755597+00:00",
+      "checked_slate": [
+        "2",
+        "17",
+        "2026-10-27T23:30:00+00:00"
+      ]
+    },
+    "401909878": {
+      "game_pk": 401909878,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909878",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.934129+00:00",
+      "checked_slate": [
+        "18",
+        "8",
+        "2026-10-28T00:00:00+00:00"
+      ]
+    },
+    "401909879": {
+      "game_pk": 401909879,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909879",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.884492+00:00",
+      "checked_slate": [
+        "24",
+        "23",
+        "2026-10-28T00:00:00+00:00"
+      ]
+    },
+    "401909880": {
+      "game_pk": 401909880,
+      "retrieved_at": null,
+      "quote_updated_at": null,
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909880",
+      "source": "ESPN",
+      "market": null,
+      "error": "A unique DraftKings provider quote is unavailable.",
+      "stale": true,
+      "last_checked_at": "2026-10-21T23:45:36.871970+00:00",
+      "checked_slate": [
+        "13",
+        "22",
+        "2026-10-28T03:00:00+00:00"
+      ]
+    }
+  }
+}

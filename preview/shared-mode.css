@@ -1,0 +1,37 @@
+@media(max-width:650px){.column-head{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);padding:0}.game-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.game-grid>.teams{grid-column:1/-1;width:100%}.team:has(.home-team-copy){height:54px}.home-team-copy strong{white-space:normal;overflow:visible;font-size:13px}.team .season-ranks{font-size:10px}.game-grid>.market::before{display:block;text-align:center;color:#acadb6;font-size:11px;margin:5px 0}.game-grid>.market:nth-child(2)::before{content:'Spread'}.game-grid>.market:nth-child(3)::before{content:'Total'}.game-grid>.market:nth-child(4)::before{content:'Moneyline'}.market button{font-size:12px}.market em{font-size:11px}}
+@media(max-width:650px){
+  body[data-sport] .game-row{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding:16px 12px}
+  body[data-sport] .game-row>div:first-child{grid-column:1/-1}
+  body[data-sport] .game-row .pair{grid-template-columns:30px minmax(0,1fr);gap:10px}
+  body[data-sport] .game-row .team-name{font-size:15px;overflow-wrap:normal}
+  body[data-sport] .game-row .pitcher-line{font-size:11px}
+  body[data-sport] .game-row .pick-cell{padding-right:0}
+  body[data-sport] .game-row .pick-name{font-size:12px}
+  body[data-sport] .game-row .score-number{font-size:23px;white-space:nowrap}
+  body[data-sport] .game-row .prob-number{font-size:23px}
+  body[data-sport] .game-row>div:last-child:not(.cell){grid-column:1/-1}
+  body[data-sport] .game-row>div:last-child>.icon{width:100%;height:44px;border:1px solid #474950;font-size:14px}
+  body[data-sport] .game-row>div:last-child>.icon::after{content:' Review matchup'}
+  body[data-sport] dialog{width:calc(100% - 16px);max-width:calc(100% - 16px);max-height:94dvh}
+  body[data-sport] #football-detail{padding:14px}
+  body[data-sport] .room-top{position:sticky;top:0;z-index:3}
+  body[data-sport] .room-top>.icon{flex:none;min-width:44px;min-height:44px}
+  body[data-sport] .season-stat>div:first-child{font-size:12px;gap:4px;grid-template-columns:1fr 1.1fr 1fr}
+  body[data-sport] .season-stat small{display:block;font-size:11px}
+  body[data-sport] .score-banner{grid-template-columns:repeat(2,minmax(0,1fr))}
+  body[data-sport] .score-banner>div:nth-child(2){grid-column:1/-1;grid-row:2}
+  body[data-sport] .score-banner>div:last-child{grid-column:2;grid-row:1}
+  body[data-sport] .score-banner .big{white-space:nowrap;font-size:28px}
+  body[data-sport] .lab-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+  body[data-sport] .lab-controls label{min-width:0}
+  body[data-sport] .lab-controls select,body[data-sport] .lab-controls input{width:100%;max-width:100%;font-size:16px;min-height:44px}
+  body[data-sport] .mast>button{min-height:44px}
+  body[data-sport] .lab-toggles{display:flex;flex-wrap:wrap;gap:14px}
+  body[data-sport] .summary-strip{flex-wrap:wrap}
+  body[data-sport] .toolbar input,body[data-sport] .toolbar select{font-size:16px;min-height:44px}
+  #sports button:disabled{display:none}
+  .market button{min-height:44px}
+  .toolbar input,.toolbar select{font-size:16px;min-height:44px}
+  .top nav a{min-height:40px}
+  .inspector{scroll-margin-top:110px}
+}

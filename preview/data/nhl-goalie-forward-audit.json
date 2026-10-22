@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-10-21T23:45:39.125508+00:00",
+  "sports": {
+    "nhl": {
+      "winners": {
+        "games": 0
+      },
+      "ties": 0,
+      "confidence_bins": [
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "games": 0
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "games": 0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "games": 0
+        },
+        {
+          "lower": 0.8,
+          "upper": 1,
+          "games": 0
+        }
+      ],
+      "total_error": null,
+      "margin_error": null,
+      "rows": []
+    }
+  }
+}

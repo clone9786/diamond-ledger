@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-21T23:45:39.125508+00:00",
+  "version": "nhl-goalies-20261021-v1",
+  "active": true,
+  "updated_games": 12,
+  "validation": {
+    "validation_games": 600,
+    "evaluation_games": 712,
+    "chosen": "shots",
+    "baseline": {
+      "games": 712,
+      "accuracy": 0.5632022471910112,
+      "brier": 0.24459671040597114,
+      "log_loss": 0.6827396552760521,
+      "total_mae": 1.8447232146318295,
+      "margin_mae": 2.158671572226908
+    },
+    "challenger": {
+      "games": 712,
+      "accuracy": 0.5589887640449438,
+      "brier": 0.24419833725109402,
+      "log_loss": 0.6816332166498646,
+      "total_mae": 1.8376074602857284,
+      "margin_mae": 2.1775525737478256
+    },
+    "coverage": 1.0
+  },
+  "record": {
+    "games": 0
+  },
+  "errors": [],
+  "source": "ESPN probable goalies and per-game goalie statistics",
+  "limits": "Save percentage is not shot-quality-adjusted GSAx. W-L is displayed, not treated as goalie skill."
+}

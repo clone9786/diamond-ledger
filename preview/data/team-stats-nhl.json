@@ -1,0 +1,459 @@
+{
+  "sport": "nhl",
+  "season": 2027,
+  "model_season": 2027,
+  "season_label": "2026\u201327 regular season",
+  "reference_only": false,
+  "generated_at": "2026-10-21T23:45:37.381020+00:00",
+  "team_count": 32,
+  "teams": {
+    "7": {
+      "team": "Carolina Hurricanes",
+      "offense": {
+        "points": 3.8181818181818183,
+        "points_rank": 5
+      },
+      "defense": {
+        "points": 2.4545454545454546,
+        "points_rank": 5
+      },
+      "games": 11,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891773"
+    },
+    "26": {
+      "team": "Florida Panthers",
+      "offense": {
+        "points": 3.3333333333333335,
+        "points_rank": 10
+      },
+      "defense": {
+        "points": 2.7777777777777777,
+        "points_rank": 10
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891773"
+    },
+    "1": {
+      "team": "Boston Bruins",
+      "offense": {
+        "points": 3.6,
+        "points_rank": 7
+      },
+      "defense": {
+        "points": 2.2,
+        "points_rank": 3
+      },
+      "games": 10,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891774"
+    },
+    "13": {
+      "team": "New York Rangers",
+      "offense": {
+        "points": 3.0,
+        "points_rank": 17
+      },
+      "defense": {
+        "points": 2.1818181818181817,
+        "points_rank": 2
+      },
+      "games": 11,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891774"
+    },
+    "37": {
+      "team": "Vegas Golden Knights",
+      "offense": {
+        "points": 4.0,
+        "points_rank": 3
+      },
+      "defense": {
+        "points": 2.727272727272727,
+        "points_rank": 9
+      },
+      "games": 11,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891775"
+    },
+    "4": {
+      "team": "Chicago Blackhawks",
+      "offense": {
+        "points": 2.3333333333333335,
+        "points_rank": 30
+      },
+      "defense": {
+        "points": 4.0,
+        "points_rank": 30
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891775"
+    },
+    "6": {
+      "team": "Edmonton Oilers",
+      "offense": {
+        "points": 4.555555555555555,
+        "points_rank": 1
+      },
+      "defense": {
+        "points": 3.0,
+        "points_rank": 12
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891804"
+    },
+    "22": {
+      "team": "Vancouver Canucks",
+      "offense": {
+        "points": 3.0,
+        "points_rank": 17
+      },
+      "defense": {
+        "points": 4.636363636363637,
+        "points_rank": 32
+      },
+      "games": 11,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891804"
+    },
+    "21": {
+      "team": "Toronto Maple Leafs",
+      "offense": {
+        "points": 3.4545454545454546,
+        "points_rank": 8
+      },
+      "defense": {
+        "points": 3.1818181818181817,
+        "points_rank": 17
+      },
+      "games": 11,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891827"
+    },
+    "10": {
+      "team": "Montreal Canadiens",
+      "offense": {
+        "points": 3.3333333333333335,
+        "points_rank": 10
+      },
+      "defense": {
+        "points": 3.7777777777777777,
+        "points_rank": 26
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891827"
+    },
+    "17": {
+      "team": "Colorado Avalanche",
+      "offense": {
+        "points": 4.1,
+        "points_rank": 2
+      },
+      "defense": {
+        "points": 3.1,
+        "points_rank": 14
+      },
+      "games": 10,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891780"
+    },
+    "8": {
+      "team": "Los Angeles Kings",
+      "offense": {
+        "points": 2.4285714285714284,
+        "points_rank": 29
+      },
+      "defense": {
+        "points": 3.857142857142857,
+        "points_rank": 29
+      },
+      "games": 7,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891780"
+    },
+    "15": {
+      "team": "Philadelphia Flyers",
+      "offense": {
+        "points": 1.5454545454545454,
+        "points_rank": 32
+      },
+      "defense": {
+        "points": 3.272727272727273,
+        "points_rank": 21
+      },
+      "games": 11,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891821"
+    },
+    "16": {
+      "team": "Pittsburgh Penguins",
+      "offense": {
+        "points": 3.3,
+        "points_rank": 13
+      },
+      "defense": {
+        "points": 3.8,
+        "points_rank": 28
+      },
+      "games": 10,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891821"
+    },
+    "12": {
+      "team": "New York Islanders",
+      "offense": {
+        "points": 3.0,
+        "points_rank": 17
+      },
+      "defense": {
+        "points": 2.2222222222222223,
+        "points_rank": 4
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401892431"
+    },
+    "3": {
+      "team": "Calgary Flames",
+      "offense": {
+        "points": 2.125,
+        "points_rank": 31
+      },
+      "defense": {
+        "points": 4.625,
+        "points_rank": 31
+      },
+      "games": 8,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891777"
+    },
+    "124292": {
+      "team": "Seattle Kraken",
+      "offense": {
+        "points": 3.9,
+        "points_rank": 4
+      },
+      "defense": {
+        "points": 3.4,
+        "points_rank": 23
+      },
+      "games": 10,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891777"
+    },
+    "29": {
+      "team": "Columbus Blue Jackets",
+      "offense": {
+        "points": 2.5,
+        "points_rank": 28
+      },
+      "defense": {
+        "points": 3.625,
+        "points_rank": 25
+      },
+      "games": 8,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891781"
+    },
+    "2": {
+      "team": "Buffalo Sabres",
+      "offense": {
+        "points": 3.0,
+        "points_rank": 17
+      },
+      "defense": {
+        "points": 3.7777777777777777,
+        "points_rank": 26
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891781"
+    },
+    "27": {
+      "team": "Nashville Predators",
+      "offense": {
+        "points": 2.875,
+        "points_rank": 22
+      },
+      "defense": {
+        "points": 3.0,
+        "points_rank": 12
+      },
+      "games": 8,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891816"
+    },
+    "30": {
+      "team": "Minnesota Wild",
+      "offense": {
+        "points": 3.1,
+        "points_rank": 16
+      },
+      "defense": {
+        "points": 2.5,
+        "points_rank": 6
+      },
+      "games": 10,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891816"
+    },
+    "11": {
+      "team": "New Jersey Devils",
+      "offense": {
+        "points": 3.2222222222222223,
+        "points_rank": 14
+      },
+      "defense": {
+        "points": 3.3333333333333335,
+        "points_rank": 22
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891817"
+    },
+    "20": {
+      "team": "Tampa Bay Lightning",
+      "offense": {
+        "points": 3.4444444444444446,
+        "points_rank": 9
+      },
+      "defense": {
+        "points": 2.5555555555555554,
+        "points_rank": 7
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891819"
+    },
+    "18": {
+      "team": "San Jose Sharks",
+      "offense": {
+        "points": 2.7,
+        "points_rank": 23
+      },
+      "defense": {
+        "points": 3.5,
+        "points_rank": 24
+      },
+      "games": 10,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891823"
+    },
+    "129764": {
+      "team": "Utah Mammoth",
+      "offense": {
+        "points": 3.8,
+        "points_rank": 6
+      },
+      "defense": {
+        "points": 3.1,
+        "points_rank": 14
+      },
+      "games": 10,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891828"
+    },
+    "9": {
+      "team": "Dallas Stars",
+      "offense": {
+        "points": 2.5555555555555554,
+        "points_rank": 26
+      },
+      "defense": {
+        "points": 1.6666666666666667,
+        "points_rank": 1
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891782"
+    },
+    "19": {
+      "team": "St. Louis Blues",
+      "offense": {
+        "points": 3.2222222222222223,
+        "points_rank": 14
+      },
+      "defense": {
+        "points": 3.2222222222222223,
+        "points_rank": 18
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891782"
+    },
+    "5": {
+      "team": "Detroit Red Wings",
+      "offense": {
+        "points": 2.5555555555555554,
+        "points_rank": 26
+      },
+      "defense": {
+        "points": 3.111111111111111,
+        "points_rank": 16
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891803"
+    },
+    "28": {
+      "team": "Winnipeg Jets",
+      "offense": {
+        "points": 2.6666666666666665,
+        "points_rank": 24
+      },
+      "defense": {
+        "points": 2.888888888888889,
+        "points_rank": 11
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401891831"
+    },
+    "23": {
+      "team": "Washington Capitals",
+      "offense": {
+        "points": 3.3333333333333335,
+        "points_rank": 10
+      },
+      "defense": {
+        "points": 3.2222222222222223,
+        "points_rank": 18
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401892432"
+    },
+    "25": {
+      "team": "Anaheim Ducks",
+      "offense": {
+        "points": 2.888888888888889,
+        "points_rank": 21
+      },
+      "defense": {
+        "points": 3.2222222222222223,
+        "points_rank": 18
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401892433"
+    },
+    "14": {
+      "team": "Ottawa Senators",
+      "offense": {
+        "points": 2.6666666666666665,
+        "points_rank": 24
+      },
+      "defense": {
+        "points": 2.5555555555555554,
+        "points_rank": 7
+      },
+      "games": 9,
+      "stale": false,
+      "source": "https://www.espn.com/nhl/game/_/gameId/401892434"
+    }
+  }
+}

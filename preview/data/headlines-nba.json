@@ -1,0 +1,56 @@
+{
+  "sport": "nba",
+  "generated_at": "2026-10-21T23:45:06.669026+00:00",
+  "headlines": [
+    {
+      "id": "e3781a68284c",
+      "title": "NBA buzz: Latest news, updates and intel for the season",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "published_at": "2026-10-21T16:43:17-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "1f678d963dc8",
+      "title": "The five biggest questions still facing Luka Doncic and the Lakers",
+      "url": "https://www.espn.com/nba/story/_/id/50229178/luka-doncic-los-angeles-lakers-questions-nba-season",
+      "published_at": "2026-10-21T16:14:37-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "72958cfef50d",
+      "title": "LeBron at center?! Why the 76ers had to get creative on opening night",
+      "url": "https://www.espn.com/nba/story/_/id/50229896/lebron-knicks-76ers-thunder-spurs-celtics-pistons",
+      "published_at": "2026-10-21T13:38:47-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "b0f897600005",
+      "title": "Bold predictions for the 2026-27 season",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50224864/fantasy-basketball-bold-predictions-nba-2026-2027",
+      "published_at": "2026-10-21T01:23:28-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "a8977da69dd7",
+      "title": "How the Knicks used their offseason to celebrate their long-overdue championship",
+      "url": "https://www.espn.com/nba/story/_/id/50221526/how-new-york-knicks-celebrated-championship-offseason",
+      "published_at": "2026-10-21T00:23:06-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "74e6f978f2f1",
+      "title": "The best and worst bets for the 2026-27 season",
+      "url": "https://www.espn.com/espn/betting/story/_/id/50220319/nba-betting-best-bets-2026-2027-season",
+      "published_at": "2026-10-20T16:11:48-05:00",
+      "publisher": "ESPN"
+    },
+    {
+      "id": "b8ba269db7a7",
+      "title": "NBA futures: Spurs, Thunder enter season as championship favorites",
+      "url": "https://www.espn.com/espn/betting/story/_/id/50230164/nba-championship-mvp-betting-odds-2026-2027",
+      "published_at": "2026-10-20T16:11:48-05:00",
+      "publisher": "ESPN"
+    }
+  ],
+  "stale": false
+}
