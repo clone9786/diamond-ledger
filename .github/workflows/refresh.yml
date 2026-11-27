@@ -37,10 +37,6 @@ jobs:
       - name: Compute and prepare the public data
         id: refresh
         run: python engine/tools/cloud_refresh.py --output "$GITHUB_WORKSPACE/site"
-      - name: Preserve new forecasts and completed results privately
-        if: ${{ always() && (steps.refresh.outcome == 'success' || steps.refresh.outcome == 'failure') }}
-        working-directory: engine
-        run: python tools/cloud_checkpoint.py
       - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
@@ -48,6 +44,14 @@ jobs:
           retention-days: 1
       - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
         id: deployment
+      # Persist private state AFTER the public deploy, so a checkpoint hiccup can
+      # never skip the deploy. continue-on-error keeps a transient push race from
+      # failing the job (the checkpoint catches up on the next run).
+      - name: Preserve new forecasts and completed results privately
+        if: ${{ always() && (steps.refresh.outcome == 'success' || steps.refresh.outcome == 'failure') }}
+        continue-on-error: true
+        working-directory: engine
+        run: python tools/cloud_checkpoint.py
       - name: Record daily publication activity
         working-directory: viewer
         run: |
